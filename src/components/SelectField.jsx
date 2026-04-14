@@ -1,4 +1,4 @@
-import "./SelectField.css";
+import "../style/SelectField.css";
 
 function SelectField({ id, label, value, onChange, options }) {
   return (
