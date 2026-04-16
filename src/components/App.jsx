@@ -3,16 +3,19 @@ import Header from "./header";
 import Aside from "./aside";
 import MainComponent from "./main.component";
 import Footer from "./footer";
+import Sales from "./sales";
 
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header />
       <div className="contenidoApp">
         <Aside />
         <MainComponent />
       </div>
-      <Footer />
+      <Footer /> */
+      <Sales />
+      }
     </>
   );
 }
